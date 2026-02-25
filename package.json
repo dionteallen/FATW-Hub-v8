@@ -19,7 +19,7 @@
     "react-dom": "^18.3.1",
     "next-auth": "^4.24.11",
     "@next-auth/prisma-adapter": "^1.0.7",
-    "nodemailer": "^6.9.15",
+    "nodemailer": "^7.0.7",
     "zod": "^3.23.8",
     "viem": "^2.21.14",
     "wagmi": "^2.12.13",
