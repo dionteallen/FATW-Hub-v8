@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/adminGuard";
 import { prisma } from "@/lib/prisma";
-import ... from "../../../../../../lib/crypto";
-import ... from "../../../../../../lib/email";
+import { sha256, randomToken } from "../../../../../lib/crypto";
+import { sendEmail } from "../../../../../lib/email";
 
 function getBaseUrl(req: Request) {
   const env = process.env.NEXTAUTH_URL;
