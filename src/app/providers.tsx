@@ -2,7 +2,7 @@
 
 import React from "react";
 import { ThirdwebProvider } from "thirdweb/react";
-import { thirdwebClient } from "@/lib/thirdwebClient";
+import { thirdwebClient } from "../lib/thirdwebClient";
 import { WagmiProvider, createConfig, http } from "wagmi";
 import { base } from "wagmi/chains";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
