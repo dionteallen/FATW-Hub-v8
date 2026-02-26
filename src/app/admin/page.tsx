@@ -1,5 +1,5 @@
-import { prisma } from "@/lib/prisma";
-import { requireAdmin } from "@/lib/adminGuard";
+import prisma from "../../lib/prisma";
+import { requireAdmin } from "../../lib/adminGuard";
 
 export default async function Admin() {
   await requireAdmin();
