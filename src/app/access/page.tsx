@@ -5,7 +5,7 @@ import { ConnectEmbed, useActiveAccount } from "thirdweb/react";
 import { inAppWallet } from "thirdweb/wallets";
 import { getUserEmail, preAuthenticate } from "thirdweb/wallets/in-app";
 import { base } from "thirdweb/chains";
-import { thirdwebClient } from "@/lib/thirdwebClient";
+import { thirdwebClient } from "../../lib/thirdwebClient";
 
 const wallet = inAppWallet({
   auth: {
